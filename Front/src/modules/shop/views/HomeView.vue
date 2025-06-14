@@ -589,7 +589,7 @@
 </template>
 
 <script setup lang="ts">
-import { tesloApi } from '../../../api/tesloApi';
+import { getProducts } from '@/modules/products/actions/get-products';
 
-tesloApi;
+getProducts();
 </script>
