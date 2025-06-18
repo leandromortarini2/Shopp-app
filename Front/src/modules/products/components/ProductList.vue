@@ -437,7 +437,7 @@
 </template>
 
 <script setup lang="ts">
-import type { IProduct } from '../../products/interfaces/product.interface';
+import type { IProduct } from '../interfaces/product.interface';
 import ProductCard from './ProductCard.vue';
 
 const props = defineProps<{
